@@ -19,7 +19,6 @@ app.use(cors());
 app.use(express.json());
 app.use("/api", userRoute); // User routes
 app.use("/api", bikerouter);
-app.use('/transaction', transactionRoute);
 app.use("/booking", bookingRoutes);
 
 //console.log(router.stack.map((r) => r.route.path));
